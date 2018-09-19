@@ -61,4 +61,5 @@ typings/
 .next
 
 
-.json
+package.json
+package-lock.json
