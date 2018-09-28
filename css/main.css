@@ -18,15 +18,15 @@ html {
 .wrapper {
   width: 100vw;
   margin: 0 auto;
-  padding: 2.5rem 0; }
+  padding: 3.5rem 0; }
 
 #title,
 #tribute-info,
 #quote-big,
 #quotes,
 #footer {
-  width: 60%;
-  max-width: 700px;
+  width: 60vw;
+  max-width: 850px;
   margin: 0 auto; }
 
 #title {
@@ -36,7 +36,8 @@ html {
     margin-left: 4rem; }
 
 #tribute-info {
-  display: flex; }
+  display: flex;
+  margin-top: 1.5rem; }
   #tribute-info .short-info {
     position: relative;
     width: 100%; }
@@ -53,6 +54,7 @@ html {
 #img-div {
   width: 50%; }
   #img-div img {
+    margin: auto;
     vertical-align: middle;
     width: 100%; }
 
@@ -66,32 +68,37 @@ header#title {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400; }
   header#title h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     color: #fff; }
   header#title h2 {
     color: #B0B0B0;
-    font-size: 1.52rem; }
+    font-size: 3rem; }
 
 #tribute-info {
-  font-size: 1.5rem; }
+  font-size: 2.2rem; }
 
 #quote-big h2 {
   font-weight: 400;
-  font-size: 1.2rem; }
-
-#quotes h1 {
-  font-size: 2rem;
-  font-weight: 500;
   text-align: left;
-  margin: 3.5rem 0 1.5rem; }
+  font-size: 1.6rem; }
+
+#quotes {
+  margin: 3rem auto; }
+  #quotes h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 3.5rem 0; }
 
 #quotes-list {
   list-style-type: none;
   text-align: left; }
   #quotes-list li {
+    font-size: 1.5rem;
     padding: 2.5rem 0; }
 
 #footer {
+  font-size: 1.4rem;
   color: #fff; }
   #footer a {
     color: #59e4c1; }
