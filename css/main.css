@@ -1,2 +1,99 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
 html {
-  background-color: yellow; }
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  /*what 1 rem is*/
+  font-size: 62.5%;
+  text-align: center; }
+
+.wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2.5rem 0; }
+
+#title,
+#tribute-info,
+#quote-big,
+#quotes,
+#footer {
+  width: 60%;
+  max-width: 700px;
+  margin: 0 auto; }
+
+#title {
+  display: flex;
+  align-items: baseline; }
+  #title h2 {
+    margin-left: 4rem; }
+
+#tribute-info {
+  display: flex; }
+  #tribute-info .short-info {
+    position: relative;
+    width: 100%; }
+    #tribute-info .short-info p {
+      text-align: left;
+      position: absolute;
+      padding: 5rem;
+      top: 50%;
+      transform: translate(0, -50%); }
+
+#quote-big {
+  margin: 0 auto; }
+
+#img-div {
+  width: 50%; }
+  #img-div img {
+    vertical-align: middle;
+    width: 100%; }
+
+.wr-dark {
+  background-color: #373737; }
+
+.wr-light {
+  background-color: #DBDBDB; }
+
+header#title {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 400; }
+  header#title h1 {
+    font-size: 4rem;
+    color: #fff; }
+  header#title h2 {
+    color: #B0B0B0;
+    font-size: 1.52rem; }
+
+#tribute-info {
+  font-size: 1.5rem; }
+
+#quote-big h2 {
+  font-weight: 400;
+  font-size: 1.2rem; }
+
+#quotes h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: left;
+  margin: 3.5rem 0 1.5rem; }
+
+#quotes-list {
+  list-style-type: none;
+  text-align: left; }
+  #quotes-list li {
+    padding: 2.5rem 0; }
+
+#footer {
+  color: #fff; }
+  #footer a {
+    color: #59e4c1; }
+    #footer a:hover {
+      color: #fff; }

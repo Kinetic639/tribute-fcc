@@ -1,0 +1,15 @@
+#img-div {
+    width: 50%;
+    & img {
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+
+.wr-dark {
+    background-color: $dark-grey-primary;
+}
+
+.wr-light {
+background-color: $light-grey-primary;
+}

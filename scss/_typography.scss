@@ -1,0 +1,56 @@
+header#title {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 400;
+
+    & h1 {
+        font-size: 4rem;
+        color: $color-white;
+    }
+
+    & h2 {
+        color: #B0B0B0;
+        font-size: 1.52rem;
+    }
+}
+
+#tribute-info {
+    font-size: 1.5rem;
+}
+
+#quote-big {
+    & h2 {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+}
+
+#quotes {
+
+    & h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: left;
+        margin: 3.5rem 0 1.5rem;
+    }
+}
+
+#quotes-list {
+    list-style-type: none;
+    text-align: left;
+
+    & li {
+        padding: 2.5rem 0;
+    }
+}
+
+#footer {
+    color: $color-white;
+
+    & a {
+        color: $light-blue-link;
+
+        &:hover {
+            color: $color-white;
+        }
+    }
+}
