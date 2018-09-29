@@ -20,8 +20,15 @@ header#title {
 #quote-big {
     & h2 {
         font-weight: 400;
-        text-align: left;
+        text-align: center;
         font-size: 1.6rem;
+    }
+
+    & address {
+        font-weight: 400;
+        text-align: right;
+        padding: 1rem 5rem 0;
+        font-size: 1.4rem;
     }
 }
 

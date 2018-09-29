@@ -4,6 +4,17 @@
         margin: auto;
         vertical-align: middle;
         width: 100%;
+        height: auto;
+    }
+
+    & figcaption {
+            background-color: $dark-grey-primary;
+            font-size: 1.4rem;
+            color: $color-light-grey;
+            width: 100%;
+            //margin-top: -1.4em;
+            text-align: center;
+            padding: .5rem;
     }
 }
 

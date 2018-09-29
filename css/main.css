@@ -56,7 +56,15 @@ html {
   #img-div img {
     margin: auto;
     vertical-align: middle;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
+  #img-div figcaption {
+    background-color: #373737;
+    font-size: 1.4rem;
+    color: #eeeeee;
+    width: 100%;
+    text-align: center;
+    padding: .5rem; }
 
 .wr-dark {
   background-color: #373737; }
@@ -79,8 +87,14 @@ header#title {
 
 #quote-big h2 {
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   font-size: 1.6rem; }
+
+#quote-big address {
+  font-weight: 400;
+  text-align: right;
+  padding: 1rem 5rem 0;
+  font-size: 1.4rem; }
 
 #quotes {
   margin: 3rem auto; }
