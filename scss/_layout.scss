@@ -1,4 +1,4 @@
-#title {
+.title-header {
     display: flex;
     align-items: baseline;
     & h2 {
@@ -6,7 +6,7 @@
     }
 }
 
-#tribute-info {
+.tribute-info {
     display: flex;
     margin-top: 1.5rem;
 
@@ -23,7 +23,8 @@
         }
     }
 }
-#quote-big {
+
+.quote-big {
 margin: 0 auto;
 }
 

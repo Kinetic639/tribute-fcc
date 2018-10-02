@@ -1,3 +1,4 @@
+//Reset
 * {
     margin: 0;
     padding: 0;
@@ -25,11 +26,11 @@
     //border: 1px solid yellowgreen;
   }
 
-  #title,
-  #tribute-info,
-  #quote-big,
-  #quotes,
-  #footer {
+  .title-header,
+  .tribute-info,
+  .quote-big,
+  .quotes,
+  .footer {
     //border: 1px solid orangered;
     width: 60vw;
     max-width: 850px;

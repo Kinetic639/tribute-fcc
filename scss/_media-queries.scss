@@ -1,0 +1,71 @@
+@media (max-width: 1000px) {
+
+  .title-header,
+  .tribute-info,
+  .quote-big,
+  .quotes,
+  .footer {
+    //border: 1px solid orangered;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 730px) {
+
+  .title-header {
+    //border: 1px solid orangered;
+    flex-direction: column;
+    justify-content: start;
+
+    & h2 {
+      //border: 1px solid orangered;
+      margin: 2rem 0 0;
+    }
+
+  }
+
+  .tribute-info {
+    font-size: 1.8rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .tribute-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //border: 1px solid orangered;
+    margin-top: 1.5rem;
+
+    & .short-info {
+      //border: 1px solid greenyellow;
+      position: relative;
+      height: 185px;
+
+      & p {
+        //border: 1px solid orangered;
+        text-align: left;
+        position: absolute;
+        padding: 5rem;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+    }
+
+    &__figure {
+      width: 80%;
+
+      & img {
+        //border: 2px solid blue;
+        margin: 0 auto;
+      }
+    }
+  }
+
+
+
+}
