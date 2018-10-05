@@ -7,7 +7,6 @@
   .footer {
     //border: 1px solid orangered;
     width: 80vw;
-    margin: 0 auto;
   }
 
 }
@@ -30,42 +29,68 @@
     font-size: 1.8rem;
   }
 
+
+
+
+
 }
 
 @media (max-width: 600px) {
 
   .tribute-info {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    //border: 1px solid orangered;
     margin-top: 1.5rem;
+    position: relative;
 
     & .short-info {
-      //border: 1px solid greenyellow;
       position: relative;
-      height: 185px;
 
       & p {
-        //border: 1px solid orangered;
-        text-align: left;
-        position: absolute;
-        padding: 5rem;
-        top: 50%;
-        transform: translate(0, -50%);
+        font-size: 1.5rem;
+        position: relative;
+        padding: 1rem;
+        top: 0;
+        transform: translate(0, 0);
       }
-    }
 
-    &__figure {
-      width: 80%;
-
-      & img {
-        //border: 2px solid blue;
-        margin: 0 auto;
-      }
     }
   }
 
+  .tribute-info__figure {
 
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 465px) {
+
+  .title-header {
+
+    & h1 {
+      font-size: 4.5rem;
+      color: $color-white;
+    }
+
+    & h2 {
+      font-size: 2rem;
+    }
+
+  }
+
+}
+
+@media (max-width: 347px) {
+
+  .title-header {
+
+    & h2 {
+     margin: 0 auto;
+    }
+
+  }
 
 }

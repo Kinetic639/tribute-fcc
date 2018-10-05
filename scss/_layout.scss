@@ -1,6 +1,7 @@
 .title-header {
     display: flex;
     align-items: baseline;
+    margin: 1rem auto;
     & h2 {
         margin-left: 4rem;
     }
@@ -8,7 +9,7 @@
 
 .tribute-info {
     display: flex;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 
     & .short-info {
         position: relative;
@@ -25,7 +26,14 @@
 }
 
 .quote-big {
-margin: 0 auto;
+margin: 0 auto 1.5rem;
+}
+
+.quotes {
+
+    & h1 {
+        margin: 2rem 0;
+    }
 }
 
 
