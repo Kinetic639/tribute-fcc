@@ -58,9 +58,9 @@ html {
 .tribute-info__figure {
   width: 50%; }
   .tribute-info__figure img {
+    display: block;
     margin: auto;
-    vertical-align: middle;
-    width: 100%;
+    max-width: 100%;
     height: auto; }
   .tribute-info__figure figcaption {
     background-color: #373737;
