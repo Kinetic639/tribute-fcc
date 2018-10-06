@@ -1,38 +1,36 @@
 //Reset
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
-  html {
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    font-weight: 400;
-    box-sizing: border-box;
-    /*what 1 rem is*/
-    font-size: 62.5%;
-    text-align: center;
-  }
+html {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  /*what 1 rem is*/
+  font-size: 62.5%;
+  text-align: center;
+}
 
-  .wrapper {
-    width: 100vw;
-    margin: 0 auto;
-    padding: 2rem 0;
-    //border: 1px solid yellowgreen;
-  }
+.wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
 
-  .title-header,
-  .tribute-info,
-  .quote-big,
-  .quotes,
-  .footer {
-    //border: 1px solid orangered;
-    width: 60vw;
-    max-width: 850px;
-    margin: 0 auto;
-  }
+.title-header,
+.tribute-info,
+.quote-big,
+.quotes,
+.footer {
+  width: 60vw;
+  max-width: 850px;
+  margin: 0 auto;
+}
