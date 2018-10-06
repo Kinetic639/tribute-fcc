@@ -16,7 +16,7 @@ html {
   text-align: center; }
 
 .wrapper {
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem 0; }
 
@@ -50,7 +50,10 @@ html {
       transform: translate(0, -50%); }
 
 .quote-big {
-  margin: 0 auto 1.5rem; }
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 1.5rem;
+  text-align: right; }
 
 .quotes h1 {
   margin: 2rem 0; }
@@ -89,12 +92,12 @@ html {
 .tribute-info {
   font-size: 2.2rem; }
 
-.quote-big h2 {
+.quote-big blockquote {
   font-weight: 400;
   text-align: center;
   font-size: 1.6rem; }
 
-.quote-big address {
+.quote-big cite {
   font-weight: 400;
   text-align: right;
   padding: 1rem 5rem 0;
